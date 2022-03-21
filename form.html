@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Autenticação Firebase</title>
+</head>
+<body>
+    <div class="center-box" id="login-div">
+        <h2 class="font-clr">Login</h2>
+        <input type="email" id="login-email" name="login-email" class="text-fild" placeholder="E-mail" required><br>
+        <input type="password" id="login-password" name="login-password" placeholder="Senha" class="text-fild" required><br>
+        <button id="login-btn" class="btn-style">Login</button>
+        <button id="showReg-btn" class="btn-style">Cadastre-se</button>
+    </div>
+
+    <div class="center-box" id="register-div">
+        <h2 class="font-clr">Cadastre-se</h2>
+        <input type="email" id="register-email" name="register-email" class="text-fild" placeholder="E-mail" required><br>
+        <input type="password" id="register-password" name="register-password" placeholder="Senha" class="text-fild" required><br>
+        <button id="reg-btn" class="btn-style">Cadastre-se</button><br>
+        <button id="backlogin-btn" class="btn-style">Fazer Login</button>
+    </div>
+    <div id="result-box">
+        <h3 id="result"> </h3>        
+        <button id="log-out-btn" class="btn-style">Sair</button>
+    </div>
+    
+    <script src="form.js" type="module"></script>
+
+
+</body>
+</html>

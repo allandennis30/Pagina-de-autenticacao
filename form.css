@@ -1,0 +1,53 @@
+.font-clr{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.center-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+}
+.text-fild{
+    padding: 10px 30px;
+    margin: 20px 0;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 12pt;
+
+}
+.btn-style{
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.btn-style:hover{
+    background-color: grey;
+    color: whitesmoke;
+    
+}
+#register-div{
+    display: none;
+}
+#backlogin-btn{
+    border: 0;
+    background-color: white;
+}
+#result-box{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    color: black;
+
+
+}
+#result{
+
+}
